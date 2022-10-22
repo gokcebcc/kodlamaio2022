@@ -1,0 +1,35 @@
+package odev_2;
+
+public class ArraysDemo {
+
+	public static void main(String[] args) {
+
+		
+		String ogrenci1="Gokce";
+		String ogrenci2="Taylan";
+		String ogrenci3="Ece";
+		
+		System.out.println(ogrenci1);
+		System.out.println(ogrenci2);
+		System.out.println(ogrenci3);
+		
+		String[] ogrenciler = new String[3];
+		ogrenciler[0] = "G";
+		ogrenciler[1] = "D";
+		ogrenciler[2] = "S";
+		
+		
+		for (int i = 0; i < ogrenciler.length; i++) {
+			
+			System.out.println(ogrenciler[i]);
+			
+		}
+		System.out.println("-----------------------------------------");
+		for(String ogrenci:ogrenciler) {
+			System.out.println(ogrenci);
+		}
+		
+		
+	}
+
+}
